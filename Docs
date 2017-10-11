@@ -1,0 +1,57 @@
+ 
+ 
+O sistema consiste em um site no qual os usuários (clientes ou/e posteriormente fornecedores) alugam roupas ao invés de comprá-las. É uma alternativa útil considerando o consumo insustentável de muitas pessoas. Além disso, alguns produtos terão a possibilidade de troca.
+Quem determina a descrição dos produtos, e quais tem a opção da proposta de troca são os usuários que se identificam como fornecedores ao criar sua loja. Já o preço dos aluguéis, será estipulado como regra do site, onde os produtos tenham uma queda em seus preços de acordo com a quantidade de uso. O preço máximo será a metade do valor original (taxados para produtos mais novos, ou usados menos vezes). No entanto, não haverá regras para as trocas, apenas uma proposta entre os usuários interessados na qual cabe a eles aceitar ou não.
+
+
+Requisitos funcionais:
+
+O aplicativo deve solicitar o cadastro dos usuários. Para se cadastrar o usuário deve fornecer: e-mail, senha, nome completo, apelido, data de nascimento, endereço, foto (se quiser), tamanhos (PMG/ 34-36-38…), CPF, contato.
+
+O aplicativo deve permitir ao usuário a criação de uma loja. E deve requisitar: descrição, objetivos, endereço do fornecedor, contato, produtos, opções de pagamento aos clientes. 
+
+Os produtos devem apresentar: fotos, descrição, condições de uso, preço, quantidade de vezes que foram usados, tamanho, opção de troca (sim ou não)  e dicas.
+
+A opção de aluguel deve apresentar: selecionar o tempo do aluguel (mais tempo = maior preço), formas de pagamento, confirmação do endereço. 
+
+Os produtos que apresentarem a opção troca devem estar marcados e ter a opção de proposta. 
+
+O usuário deve ter acesso ao perfil dele no qual poderá editar as informações se necessário e é onde ficarão as publicações. 
+
+O usuário pode compartilhar looks montados por ele com produtos do site. 
+
+Os produtos selecionados pelo o usuário para alugar devem ser direcionados para o carrinho, e não serem mais mostrados como disponíveis para os demais usuários. O carrinho deve pedir a confirmação do aluguel e calcular o valor do frete.
+
+O login deve solicitar e-mail e senha.
+
+O site deve apresentar uma aba “meu closet” na qual estarão os produtos já alugados por ele. 
+
+Os usuários podem seguir suas lojas favoritas.
+
+Os usuários podem favoritar suas peças prediletas. 
+
+O usuário avalia os produtos que ele alugou, comentando e postando fotos. 
+
+O aplicativo deve apresentar abas com categorias dos produtos, deve também apresentar ao usuário roupas do tamanho dele (já dito no cadastro) e outras que se assemelham as visualizadas ou alugadas por ele. 
+
+O usuário deve ter controle sobre os produtos que ele coloca na loja, podendo tirá-los de estoque quando desejar ou editar alguma informação. 
+
+O aplicativo deve possibilitar a opção de pesquisa.
+
+Deve haver uma aba com comentários sobre a loja e sobre cada produto, na qual os clientes classifiquem a mesma e coloquem fotos e falem sobre como foi a experiência com determinado produto. 
+
+A página principal do aplicativo deve conter as opções: produtos (que ao entrar nela há mais separações de categorias), carrinho, perfil, meu closet, marcas, descontos, ajuda.
+
+
+
+
+Requisitos não-funcionais:
+
+O aplicativo será programado em linguagem JAVA.
+
+Deve ter o protocolo HTTPS.
+
+Deve ter a velocidade máxima de 4 segundos para carregar a página. 
+
+
+MER - https://cacoo.com/diagrams/XtW2YVTfCkklTPs2/edit?sid=FA26A
