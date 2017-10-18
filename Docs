@@ -11,7 +11,9 @@ O site deve abrir para todos os visitantes, para que visualizem os produtos. Mas
 
 O aplicativo deve solicitar o cadastro dos usuários. Para se cadastrar o usuário deve fornecer: e-mail, senha, nome completo, apelido, data de nascimento, endereço, foto (se quiser), tamanhos (PMG/ 34-36-38…), CPF, contato.
 
-O aplicativo deve permitir ao usuário a criação de uma loja. E deve requisitar: descrição, objetivos, endereço do fornecedor, contato, produtos, opções de pagamento aos clientes. 
+O aplicativo deve permitir ao usuário a criação de uma loja. E deve requisitar: descrição, objetivos, endereço do fornecedor, contato, produtos, opções de pagamento aos clientes.
+
+O usuário (que é um fornecedor) pode adiocinar mais produtos ou retirá-los quando quiser.
 
 Os produtos devem apresentar: fotos, descrição, condições de uso, preço, quantidade de vezes que foram usados, tamanho, opção de troca (sim ou não)  e dicas.
 
