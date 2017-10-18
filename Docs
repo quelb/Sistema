@@ -14,6 +14,7 @@ O aplicativo deve permitir ao usuário a criação de uma loja. E deve requisita
 Os produtos devem apresentar: fotos, descrição, condições de uso, preço, quantidade de vezes que foram usados, tamanho, opção de troca (sim ou não)  e dicas.
 
 A opção de aluguel deve apresentar: selecionar o tempo do aluguel (mais tempo = maior preço), formas de pagamento, confirmação do endereço. 
+O usuário (que vai alugar) paga o frete que deve estar simulado antes de confirmar a compra. 
 
 Os produtos que apresentarem a opção troca devem estar marcados e ter a opção de proposta. 
 
