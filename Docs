@@ -34,6 +34,8 @@ Os produtos selecionados pelo o usuário para alugar devem ser direcionados para
 
 O login deve solicitar e-mail e senha.
 
+O site deve conter um faq com dúvidas frequentes (página estática).
+
 O site deve apresentar uma aba “meu closet” na qual estarão os produtos já alugados por ele. 
 O site deve apresentar a opção de reclamação aos usuários, para que haja por parte do administrador (do site) o controle geral.
 
