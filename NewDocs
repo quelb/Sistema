@@ -1,0 +1,65 @@
+O site consiste em um sistema no qual o objetivo é o compartilhamento de roupas. O usuário se cadastra e começa com 200 pontos. Ao colocar roupas na rede ele ganha mais pontos, assim como se selecionar roupas de outros usuários. Cada roupa estará taxada com um número específico de pontos (O quinto do seu valor em dinheiro original).
+O usuário recebe pontos quando: Coloca roupas na rede (maior quantidade), seleciona uma roupa da rede para si, quando outros usuários selecionam um de seus produos e quando recebe uma boa classificação.
+*Requisitos Funcionais*
+
+O site deve abrir para todos os visitantes, para que visualizem os produtos. Mas, para poder enviar um produto ou escolher um da rede é preciso efetuar o login, logo ser cadstrdo.
+
+O aplicativo deve solicitar o cadastro dos usuários. Para se cadastrar o usuário deve fornecer: e-mail, senha, nome completo, apelido, data de nascimento, endereço, foto (se quiser), CPF, contato.
+
+O site deve permitir que os usuários enviem roupas, mas eles não podem retirá-las se a peça não apresentar defeito. (Quando um usuário solicitar retirar a peça ele deve contatar seu fornecedor ogirinal e enviar fotos do possível defeito, para que este decida o que será feito).
+
+O produto deve acumular contatos dos seus antigos usuários e do atual. 
+
+Os produtos devem apresentar: fotos, descrição, condições de uso, preço, quantidade de vezes que foram usados, tamanho, quantidade de pontos e dicas.
+
+O usuário ( que vai receber) paga o frete que deve estar simulado antes de confirmar o compartilhamento.
+
+Os usuários após reeceberem o produto devem classificar o fornecedor, este terá e seu perfil essa classificação juntamente co comentários adicionais.
+
+O site deve ter a opção de enviar mensagens. 
+
+O usuário deve ter acesso ao perfil dele no qual poderá editar as informações se necessário e é onde ficará sua classificação e opinião sobre ele.
+
+Os produtos selecionados pelo o usuário para alugar devem ser direcionados para a cestinha, e não serem mais mostrados como disponíveis para os demais usuários.
+
+O login deve solicitar e-mail e senha.
+
+O site deve conter um faq com dúvidas frequentes (página estática).
+
+O site deve apresentar uma aba “meu closet” na qual estarão os produtos já alugados por ele. 
+O site deve apresentar a opção de reclamação aos usuários, para que haja por parte do administrador (do site) o controle geral.
+
+O usuário pode adicionar produtos a sua lista de desejos. 
+O site deve conter uma aba com a mesma, onde estarão os produtos salvos. 
+
+Os usuários podem favoritar suas peças prediletas. 
+
+O usuário avalia os produtos que foram compartilhados com ele, comentando e postando fotos. 
+
+O aplicativo deve apresentar abas com categorias dos produtos.
+
+O aplicativo deve possibilitar a opção de pesquisa.
+
+Após o produto estar com ele, o usuário tem o período de 20 dias para usu´-lo, após isso assim que o mesmo for solicitado deve ser enviado.
+
+O site deve apresentar uma "lista" com os usuários que desrespeitarem as políticas e normas do site, como atraso para o envio. O usuário terá seu nome nessa lista se errar 3 vezes.
+
+Além das formas convencionais de ganhar pontos, o usuário pode comprar pacotes de pontos. (premium)
+
+
+
+**Requisitos não-funcionais:**
+
+O aplicativo será programado em linguagem JAVA.
+
+Deve ter o protocolo HTTPS.
+
+Deve ter a velocidade máxima de 4 segundos para carregar a página. 
+
+
+MARIANA CORRIGE OS ERROS DE PORTUGUES PORQUE EU ACABEI DE CHEGAR E MACÉ, SÃO 00:00 E EU FIZ ISSO COM SONO
+
+
+
+
+
