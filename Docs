@@ -9,7 +9,6 @@ Ainda há a possibilidade dos usuários adicionarem outros usuários e compartil
 
 Requisitos Funcionais:
 
-
 O site deve abrir para todos os visitantes, para que visualizem os produtos. Mas, para colocar produtos no carrinho, ou na lista de desejos ele deve se cadastrar ou fazer o login.
 
 O aplicativo deve solicitar o cadastro dos usuários. Para se cadastrar o usuário deve fornecer: e-mail, senha, nome completo, apelido, data de nascimento, endereço, foto (se quiser), tamanhos (PMG/ 34-36-38…), CPF, contato.
