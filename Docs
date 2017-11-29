@@ -1,7 +1,11 @@
+Sistema antigo (que agora é atual)
+
  
  
 O sistema consiste em um site no qual os usuários (clientes ou/e posteriormente fornecedores) alugam roupas ao invés de comprá-las. É uma alternativa útil considerando o consumo insustentável de muitas pessoas. Além disso, alguns produtos terão a possibilidade de troca.
-Quem determina a descrição dos produtos, e quais tem a opção da proposta de troca são os usuários que se identificam como fornecedores ao criar sua loja. Já o preço dos aluguéis, será estipulado como regra do site, onde os produtos tenham uma queda em seus preços de acordo com a quantidade de uso. O preço máximo será a metade do valor original (taxados para produtos mais novos, ou usados menos vezes). No entanto, não haverá regras para as trocas, apenas uma proposta entre os usuários interessados na qual cabe a eles aceitar ou não.
+Quem determina a descrição dos produtos, e quais tem a opção da proposta de troca são os usuários que se identificam como fornecedores ao criar sua loja. Os usuários pagarão uma mensalidade de acordo com o plano escolhido, na qual no básico poderão escolher 5 peças (sendo apenas 2 de categoria premium - roupas de festa ou sociais -). A quantidade aumenta com o pacote.  Não haverá regras para as trocas, apenas uma proposta entre os usuários interessados na qual cabe a eles aceitar ou não.
+Os usuários que enviaram as roupas receberão uma quantia  (vinda da mensalidade) - já estipulada nas regras do site - quando suas roupas forem selecionadas. A mensalidade também será destinada ao pagamento da transportadora (talvez do site).
+Basicamente o usuário irá montar o seu pacote de peças que será entregue sempre na mesma data de cada mês, ao ser entregue o novo pacote também será devolvido o antigo no qual as peças serão enviadas para seus fornecedores originais se não forem solicitadas ou farão parte de um novo pacote.
 Ainda há a possibilidade dos usuários adicionarem outros usuários e compartilharem looks que montaram com os produtos do site. 
 
 
@@ -11,9 +15,9 @@ O site deve abrir para todos os visitantes, para que visualizem os produtos. Mas
 
 O aplicativo deve solicitar o cadastro dos usuários. Para se cadastrar o usuário deve fornecer: e-mail, senha, nome completo, apelido, data de nascimento, endereço, foto (se quiser), tamanhos (PMG/ 34-36-38…), CPF, contato.
 
-O aplicativo deve permitir ao usuário a criação de uma loja. E deve requisitar: descrição, objetivos, endereço do fornecedor, contato, produtos, opções de pagamento aos clientes.
+O aplicativo deve permitir ao usuário a criação de uma loja. E deve requisitar: descrição, objetivos, endereço do fornecedor, contato, produtos.
 
-O usuário (que é um fornecedor) pode adiocinar mais produtos ou retirá-los quando quiser.
+O usuário (que é um fornecedor) pode adicionar mais produtos ou retirá-los quando quiser.
 
 Os produtos devem apresentar: fotos, descrição, condições de uso, preço, quantidade de vezes que foram usados, tamanho, opção de troca (sim ou não)  e dicas.
 
@@ -71,3 +75,4 @@ Deve ter a velocidade máxima de 4 segundos para carregar a página.
 
 
 MER - https://cacoo.com/diagrams/XtW2YVTfCkklTPs2/edit?sid=FA26A
+
