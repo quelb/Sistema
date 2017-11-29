@@ -7,7 +7,7 @@ Os usuários que enviaram as roupas receberão uma quantia  (vinda da mensalidad
 Basicamente o usuário irá montar o seu pacote de peças que será entregue sempre na mesma data de cada mês, ao ser entregue o novo pacote também será devolvido o antigo no qual as peças serão enviadas para seus fornecedores originais se não forem solicitadas ou farão parte de um novo pacote.
 Ainda há a possibilidade dos usuários adicionarem outros usuários e compartilharem looks que montaram com os produtos do site. 
 
-Requisitos funcionais:
+Requisitos Funcionais:
 
 
 O site deve abrir para todos os visitantes, para que visualizem os produtos. Mas, para colocar produtos no carrinho, ou na lista de desejos ele deve se cadastrar ou fazer o login.
