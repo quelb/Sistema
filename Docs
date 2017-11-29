@@ -10,6 +10,7 @@ Ainda há a possibilidade dos usuários adicionarem outros usuários e compartil
 
 Requisitos funcionais:
 
+
 O site deve abrir para todos os visitantes, para que visualizem os produtos. Mas, para colocar produtos no carrinho, ou na lista de desejos ele deve se cadastrar ou fazer o login.
 
 O aplicativo deve solicitar o cadastro dos usuários. Para se cadastrar o usuário deve fornecer: e-mail, senha, nome completo, apelido, data de nascimento, endereço, foto (se quiser), tamanhos (PMG/ 34-36-38…), CPF, contato.
@@ -21,6 +22,7 @@ O usuário (que é um fornecedor) pode adicionar mais produtos ou retirá-los qu
 Os produtos devem apresentar: fotos, descrição, condições de uso, preço, quantidade de vezes que foram usados, tamanho, opção de troca (sim ou não)  e dicas.
 
 A opção de aluguel deve apresentar: selecionar o tempo do aluguel (mais tempo = maior preço), formas de pagamento, confirmação do endereço. 
+
 O usuário (que vai alugar) paga o frete que deve estar simulado antes de confirmar a compra. 
 
 Os produtos que apresentarem a opção troca devem estar marcados e ter a opção de proposta. 
@@ -40,9 +42,11 @@ O login deve solicitar e-mail e senha.
 O site deve conter um faq com dúvidas frequentes (página estática).
 
 O site deve apresentar uma aba “meu closet” na qual estarão os produtos já alugados por ele. 
+
 O site deve apresentar a opção de reclamação aos usuários, para que haja por parte do administrador (do site) o controle geral.
 
 O usuário pode adicionar produtos a sua lista de desejos. 
+
 O site deve conter uma aba com a mesma, onde estarão os produtos salvos. 
 
 Os usuários podem seguir suas lojas favoritas.
