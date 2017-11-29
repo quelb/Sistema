@@ -8,6 +8,7 @@ Basicamente o usuário irá montar o seu pacote de peças que será entregue sem
 Ainda há a possibilidade dos usuários adicionarem outros usuários e compartilharem looks que montaram com os produtos do site. 
 
 
+
 Requisitos Funcionais:
 
 O site deve abrir para todos os visitantes, para que visualizem os produtos. Mas, para colocar produtos no carrinho, ou na lista de desejos ele deve se cadastrar ou fazer o login.
@@ -63,8 +64,6 @@ O aplicativo deve possibilitar a opção de pesquisa.
 Deve haver uma aba com comentários sobre a loja e sobre cada produto, na qual os clientes classifiquem a mesma e coloquem fotos e falem sobre como foi a experiência com determinado produto. 
 
 A página principal do aplicativo deve conter as opções: produtos (que ao entrar nela há mais separações de categorias), carrinho, perfil, meu closet, marcas, descontos, ajuda.
-
-
 
 
 
