@@ -35,7 +35,7 @@ O usuário pode editar, mas não apagar suas postagens.
 
 Os produtos selecionados pelo o usuário para alugar devem ser direcionados para o carrinho, e não serem mais mostrados como disponíveis para os demais usuários. O carrinho deve pedir a confirmação do aluguel e calcular o valor do frete.
 
-O login deve solicitar e-mail e senha. 
+O login deve solicitar e-mail e senha.               
 
 O site deve conter um faq com dúvidas frequentes (página estática).
 
