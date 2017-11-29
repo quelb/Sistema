@@ -32,7 +32,7 @@ O usuário deve ter acesso ao perfil dele no qual poderá editar as informaçõe
 
 O usuário pode compartilhar looks montados por ele com produtos do site. 
 
-O usuário pode editar, mas não apagar suas postagens. 
+O usuário pode editar, mas não apagar suas postagens.  
 
 Os produtos selecionados pelo o usuário para alugar devem ser direcionados para o carrinho, e não serem mais mostrados como disponíveis para os demais usuários. O carrinho deve pedir a confirmação do aluguel e calcular o valor do frete.
 
