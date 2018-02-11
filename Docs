@@ -10,9 +10,9 @@ Ainda há a possibilidade dos usuários adicionarem outros usuários e compartil
 
 Requisitos Funcionais:
 
-*LEMBRAR DE ADAPTAR OS REQUISITOS ANTIGOS AO NOVO SISTEMA (SEGUINDO O MER)*
 
-O site deve abrir para todos os visitantes, para que visualizem os produtos. Mas, para colocar produtos no carrinho, ou na lista de desejos ele deve se cadastrar ou fazer o login.
+
+O site deve abrir para todos os visitantes, para que visualizem os produtos. Mas, para colocar produtos no closet ou na lista de desejos ele deve se cadastrar ou fazer o login.
 
 O aplicativo deve solicitar o cadastro dos usuários. Para se cadastrar o usuário deve fornecer: e-mail, senha, nome completo, apelido, data de nascimento, endereço, foto (se quiser), tamanhos (PMG/ 34-36-38…), CPF, contato.
 
@@ -20,11 +20,8 @@ O aplicativo deve permitir ao usuário a criação de uma loja. E deve requisita
 
 O usuário (que é um fornecedor) pode adicionar mais produtos ou retirá-los quando quiser.
 
-Os produtos devem apresentar: fotos, descrição, condições de uso, preço, quantidade de vezes que foram usados, tamanho, opção de troca (sim ou não)  e dicas.
+Os produtos devem apresentar: fotos, descrição, condições de uso, preço, quantidade de vezes que foram usados, tamanho, opção de troca (sim ou não)  e dicas (campo não obrigatório).
 
-A opção de aluguel deve apresentar: selecionar o tempo do aluguel (mais tempo = maior preço), formas de pagamento, confirmação do endereço. 
-
-O usuário (que vai alugar) paga o frete que deve estar simulado antes de confirmar a compra. 
 
 Os produtos que apresentarem a opção troca devem estar marcados e ter a opção de proposta. 
 
@@ -36,13 +33,13 @@ O usuário pode compartilhar looks montados por ele com produtos do site.
 
 O usuário pode editar, mas não apagar suas postagens.               
 
-Os produtos selecionados pelo o usuário para alugar devem ser direcionados para o carrinho, e não serem mais mostrados como disponíveis para os demais usuários. O carrinho deve pedir a confirmação do aluguel e calcular o valor do frete.
+Os produtos selecionados pelo o usuário para alugar devem ser direcionados para o closet, e não serem mais mostrados como disponíveis para os demais usuários. O closet deve pedir a confirmação do aluguel e só completar o pacote após a confirmação que todas as peças foram selecionadas e dizer uma data prevista para a entrega.
 
 O login deve solicitar e-mail e senha.               
 
 O site deve conter um faq com dúvidas frequentes (página estática).
 
-O site deve apresentar uma aba “meu closet” na qual estarão os produtos já alugados por ele. 
+O site deve apresentar uma aba “meu closet infinito” na qual estarão os produtos já alugados por ele. 
 
 O site deve apresentar a opção de reclamação aos usuários, para que haja por parte do administrador (do site) o controle geral.
 
@@ -64,7 +61,7 @@ O aplicativo deve possibilitar a opção de pesquisa.
 
 Deve haver uma aba com comentários sobre a loja e sobre cada produto, na qual os clientes classifiquem a mesma e coloquem fotos e falem sobre como foi a experiência com determinado produto. 
 
-A página principal do aplicativo deve conter as opções: produtos (que ao entrar nela há mais separações de categorias), carrinho, perfil, meu closet, marcas, descontos, ajuda.
+A página principal do aplicativo deve conter as opções: produtos (que ao entrar nela há mais separação de categorias), closet, perfil, meu closet infinito, marcas, descontos, ajuda  e looks.
 
 
 
@@ -80,5 +77,6 @@ Deve ter a velocidade máxima de 4 segundos para carregar a página.
 
 
 MER - https://cacoo.com/diagrams/XtW2YVTfCkklTPs2/edit?sid=FA26A      
+
 
 
