@@ -105,7 +105,7 @@ public class avalia {
     }
 
     /**
-     * @param cod_produto the cod_produto to set
+     * @param cod_produto the tudo bem cod_produto to set
      */
     public void setCod_produto(int cod_produto) {
         this.cod_produto = cod_produto;
