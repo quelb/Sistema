@@ -1,6 +1,10 @@
 
 import java.io.File;
+import java.io.Serializable;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /*
@@ -16,8 +20,42 @@ import javax.persistence.Table;
  @Entity
  @Table(name="usuario")
  
- public class usuario {
- 
+ public class usuario implements Serializable {
+
+    /**
+     * @return the cod_usuario
+     */
+    public Integer getCod_usuario() {
+        return cod_usuario;
+    }
+
+    /**
+     * @param cod_usuario the cod_usuario to set
+     */
+    public void setCod_usuario(Integer cod_usuario) {
+        this.cod_usuario = cod_usuario;
+    }
+ public usuario () {
+            
+        }
+    @Id 
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private Integer cod_usuario;
+    private String email;
+    private int senha;
+    private String login;
+    private String nome;
+    private String sobrenome;
+    private String apelido;
+    private File foto;
+    private int cpf;
+    private int rg;
+    private int contato;
+    private int datnascimento;
+    private String sexo;
+    private String tamanho;
+    private int cod_usu_q_add;
+    
     /**
      * @return the login
      */
@@ -32,19 +70,7 @@ import javax.persistence.Table;
         this.login = login;
     }
 
-    /**
-     * @return the cod_usuario
-     */
-    public int getCod_usuario() {
-        return cod_usuario;
-    }
-
-    /**
-     * @param cod_usuario the cod_usuario to set
-     */
-    public void setCod_usuario(int cod_usuario) {
-        this.cod_usuario = cod_usuario;
-    }
+   
 
     /**
      * @return the email
@@ -227,23 +253,5 @@ import javax.persistence.Table;
     public void setCod_usu_q_add(int cod_usu_q_add) {
         this.cod_usu_q_add = cod_usu_q_add;
     }
-        public usuario () {
-            
-        }
         
-    private int cod_usuario;
-    private String email;
-    private int senha;
-    private String login;
-    private String nome;
-    private String sobrenome;
-    private String apelido;
-    private File foto;
-    private int cpf;
-    private int rg;
-    private int contato;
-    private int datnascimento;
-    private String sexo;
-    private String tamanho;
-    private int cod_usu_q_add;
 }
