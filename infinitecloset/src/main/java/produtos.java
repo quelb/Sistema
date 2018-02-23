@@ -1,5 +1,6 @@
 
 import java.io.File;
+import javax.persistence.Entity;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -11,8 +12,10 @@ import java.io.File;
  *
  * @author aluno
  */
+ @Entity
+ 
 public class produtos {
-
+ 
     /**
      * @return the cod_produto
      */
@@ -181,6 +184,9 @@ public class produtos {
         this.cod_loja = cod_loja;
     }
     
+        public produtos () {
+            
+        }
     private int cod_produto;
     private String nome;
     private File foto;
