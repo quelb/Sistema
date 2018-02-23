@@ -51,6 +51,9 @@ public class favorita {
     public void setCod_produto(int cod_produto) {
         this.cod_produto = cod_produto;
     }
+        public favorita () {
+            
+        }
     private int cod_fav;
     private int cod_usuario;
     private int cod_produto;

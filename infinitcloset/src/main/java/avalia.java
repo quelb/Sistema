@@ -110,6 +110,9 @@ public class avalia {
     public void setCod_produto(int cod_produto) {
         this.cod_produto = cod_produto;
     }
+        public avalia () {
+            
+        }
     private int cod_avaliacao;
     private String comentario;
     private File coracao;

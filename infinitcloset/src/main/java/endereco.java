@@ -135,7 +135,10 @@ public class endereco {
     public void setCod_usuario(int cod_usuario) {
         this.cod_usuario = cod_usuario;
     }
-    
+        
+        public endereco () {
+            
+        }
     private int cod_endereco;
     private String estado;
     private String pais;

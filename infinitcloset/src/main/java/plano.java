@@ -79,7 +79,9 @@ public class plano {
     public void setBanco(String banco) {
         this.banco = banco;
     }
-    
+        public plano () {
+            
+        }
     private int cod_plano;
     private String nome;
     private int num_cartao;

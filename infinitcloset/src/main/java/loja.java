@@ -80,6 +80,9 @@ public class loja {
         this.cod_usuario = cod_usuario;
     }
     
+        public loja () {
+            
+        }
     private int cod_loja;
     private String descricao;
     private int cod_produto;

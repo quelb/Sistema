@@ -51,7 +51,9 @@ public class pacote {
     public void setCod_plano(int cod_plano) {
         this.cod_plano = cod_plano;
     }
-    
+        public pacote () {
+            
+        }
     private int cod_aluguel;
     private int cod_produto;
     private int cod_plano;

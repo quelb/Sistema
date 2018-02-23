@@ -110,6 +110,9 @@ public class looks {
     public void setTamanho(String tamanho) {
         this.tamanho = tamanho;
     }
+        public looks () {
+            
+        }
     private int cod_publi;
     private File foto;
     private int cod_usuario;

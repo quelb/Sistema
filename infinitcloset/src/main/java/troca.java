@@ -1,3 +1,6 @@
+
+import javax.persistence.Entity;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,6 +11,7 @@
  *
  * @author aluno
  */
+ @Entity
 public class troca {
 
     /**
@@ -80,6 +84,9 @@ public class troca {
         this.cod_produto = cod_produto;
     }
   
+        public troca () {
+        }
+        
     private int cod_troca;
     private String proposta;
     private int contato_fornecedor;

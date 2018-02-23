@@ -1,5 +1,7 @@
 
 import java.io.File;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -11,8 +13,11 @@ import java.io.File;
  *
  * @author aluno
  */
-public class usuario {
-
+ @Entity
+ @Table(name="usuario")
+ 
+ public class usuario {
+ 
     /**
      * @return the login
      */
@@ -222,7 +227,10 @@ public class usuario {
     public void setCod_usu_q_add(int cod_usu_q_add) {
         this.cod_usu_q_add = cod_usu_q_add;
     }
-    
+        public usuario () {
+            
+        }
+        
     private int cod_usuario;
     private String email;
     private int senha;
