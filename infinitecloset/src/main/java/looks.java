@@ -1,5 +1,10 @@
 
 import java.io.File;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -11,6 +16,8 @@ import java.io.File;
  *
  * @author aluno
  */
+@Entity
+@Table(name="looks")
 public class looks {
 
     /**
@@ -113,6 +120,9 @@ public class looks {
         public looks () {
             
         }
+    @Id 
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+
     private int cod_publi;
     private File foto;
     private int cod_usuario;

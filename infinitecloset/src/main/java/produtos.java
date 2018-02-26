@@ -1,6 +1,11 @@
 
 import java.io.File;
+import java.io.Serializable;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -13,8 +18,8 @@ import javax.persistence.Entity;
  * @author aluno
  */
  @Entity
- 
-public class produtos {
+ @Table(name="produtos")
+public class produtos  implements Serializable {
  
     /**
      * @return the cod_produto
@@ -187,6 +192,8 @@ public class produtos {
         public produtos () {
             
         }
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private int cod_produto;
     private String nome;
     private File foto;

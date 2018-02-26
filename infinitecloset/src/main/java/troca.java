@@ -1,5 +1,10 @@
 
+import java.io.Serializable;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -12,7 +17,8 @@ import javax.persistence.Entity;
  * @author aluno
  */
  @Entity
-public class troca {
+ @Table(name="troca")
+public class troca implements Serializable {
 
     /**
      * @return the cod_troca
@@ -87,6 +93,8 @@ public class troca {
         public troca () {
         }
         
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private int cod_troca;
     private String proposta;
     private int contato_fornecedor;

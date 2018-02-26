@@ -1,3 +1,10 @@
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,6 +15,8 @@
  *
  * @author aluno
  */
+@Entity
+@Table(name="plano")
 public class plano {
 
     /**
@@ -82,6 +91,9 @@ public class plano {
         public plano () {
             
         }
+    @Id 
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+
     private int cod_plano;
     private String nome;
     private int num_cartao;
