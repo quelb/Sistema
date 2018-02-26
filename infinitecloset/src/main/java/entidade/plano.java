@@ -1,3 +1,5 @@
+package entidade;
+
 
 import java.io.Serializable;
 import javax.persistence.Entity;
