@@ -1,5 +1,6 @@
 
 import java.io.File;
+import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -18,7 +19,8 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name="avalia")
-public class avalia {
+
+public class avalia  implements Serializable  {
 
     /**
      * @return the cod_avaliacao

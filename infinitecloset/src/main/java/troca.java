@@ -18,6 +18,7 @@ import javax.persistence.Table;
  */
  @Entity
  @Table(name="troca")
+ 
 public class troca implements Serializable {
 
     /**

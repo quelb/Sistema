@@ -19,6 +19,7 @@ import javax.persistence.Table;
  */
  @Entity
  @Table(name="produtos")
+ 
 public class produtos  implements Serializable {
  
     /**
