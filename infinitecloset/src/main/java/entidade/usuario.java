@@ -3,10 +3,12 @@ package entidade;
 
 import java.io.File;
 import java.io.Serializable;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 /*
@@ -41,10 +43,12 @@ import javax.persistence.Table;
             
         }
     @Id 
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator="seq-gen")
+    @SequenceGenerator(name="seq-gen", sequenceName="seq_codusuario", allocationSize = 1)
+    @Column(name = "codusuario")
     private Integer cod_usuario;
     private String email;
-    private int senha;
+    private String senha;
     private String login;
     private String nome;
     private String sobrenome;
@@ -54,7 +58,6 @@ import javax.persistence.Table;
     private int rg;
     private int contato;
     private int datnascimento;
-    private String sexo;
     private String tamanho;
     private int cod_usu_q_add;
     
@@ -91,14 +94,14 @@ import javax.persistence.Table;
     /**
      * @return the senha
      */
-    public int getSenha() {
+    public String getSenha() {
         return senha;
     }
 
     /**
      * @param senha the senha to set
      */
-    public void setSenha(int senha) {
+    public void setSenha(String senha) {
         this.senha = senha;
     }
 
@@ -215,20 +218,6 @@ import javax.persistence.Table;
     }
 
     /**
-     * @return the sexo
-     */
-    public String getSexo() {
-        return sexo;
-    }
-
-    /**
-     * @param sexo the sexo to set
-     */
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
-    }
-
-    /**
      * @return the tamanho
      */
     public String getTamanho() {
@@ -255,5 +244,5 @@ import javax.persistence.Table;
     public void setCod_usu_q_add(int cod_usu_q_add) {
         this.cod_usu_q_add = cod_usu_q_add;
     }
-        
+  
 }

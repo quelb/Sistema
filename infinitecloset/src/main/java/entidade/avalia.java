@@ -52,19 +52,7 @@ public class avalia  implements Serializable  {
         this.comentario = comentario;
     }
 
-    /**
-     * @return the coracao
-     */
-    public File getCoracao() {
-        return coracao;
-    }
 
-    /**
-     * @param coracao the coracao to set
-     */
-    public void setCoracao(File coracao) {
-        this.coracao = coracao;
-    }
 
     /**
      * @return the foto
@@ -129,7 +117,6 @@ public class avalia  implements Serializable  {
 
     private int cod_avaliacao;
     private String comentario;
-    private File coracao;
     private File foto;
     private int data_hora;
     private int cod_usuario;
