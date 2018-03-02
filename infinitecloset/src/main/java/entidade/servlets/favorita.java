@@ -1,4 +1,4 @@
-package entidade;
+package entidade.servlets;
 
 
 import java.io.Serializable;
@@ -18,51 +18,23 @@ import javax.persistence.Table;
  *
  * @author aluno
  */
- @Entity
- @Table(name="troca")
- 
-public class troca implements Serializable {
+@Entity
+@Table(name="favorita")
+
+public class favorita  implements Serializable  {
 
     /**
-     * @return the cod_troca
+     * @return the cod_fav
      */
-    public int getCod_troca() {
-        return cod_troca;
+    public int getCod_fav() {
+        return cod_fav;
     }
 
     /**
-     * @param cod_troca the cod_troca to set
+     * @param cod_fav the cod_fav to set
      */
-    public void setCod_troca(int cod_troca) {
-        this.cod_troca = cod_troca;
-    }
-
-    /**
-     * @return the proposta
-     */
-    public String getProposta() {
-        return proposta;
-    }
-
-    /**
-     * @param proposta the proposta to set
-     */
-    public void setProposta(String proposta) {
-        this.proposta = proposta;
-    }
-
-    /**
-     * @return the contato_fornecedor
-     */
-    public int getContato_fornecedor() {
-        return contato_fornecedor;
-    }
-
-    /**
-     * @param contato_fornecedor the contato_fornecedor to set
-     */
-    public void setContato_fornecedor(int contato_fornecedor) {
-        this.contato_fornecedor = contato_fornecedor;
+    public void setCod_fav(int cod_fav) {
+        this.cod_fav = cod_fav;
     }
 
     /**
@@ -92,15 +64,13 @@ public class troca implements Serializable {
     public void setCod_produto(int cod_produto) {
         this.cod_produto = cod_produto;
     }
-  
-        public troca () {
+        public favorita () {
+            
         }
-        
-    @Id
+    @Id 
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private int cod_troca;
-    private String proposta;
-    private int contato_fornecedor;
+
+    private int cod_fav;
     private int cod_usuario;
     private int cod_produto;
 }

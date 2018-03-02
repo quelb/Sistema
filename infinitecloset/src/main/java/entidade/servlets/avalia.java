@@ -1,4 +1,4 @@
-package entidade;
+package entidade.servlets;
 
 
 import java.io.File;

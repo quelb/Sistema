@@ -6,8 +6,9 @@
 package util;
 
 
-import entidade.endereco;
-import entidade.usuario;
+
+import com.mycompany.sistema.Endereco;
+import com.mycompany.sistema.Usuario;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
@@ -25,8 +26,8 @@ public class sessaohibernate {
         static {
             Configuration cfg = new AnnotationConfiguration();
             cfg.configure("hibernate.cfg.xml");
-            cfg.addAnnotatedClass(usuario.class);
-            cfg.addAnnotatedClass(endereco.class);
+            cfg.addAnnotatedClass(Usuario.class);
+            cfg.addAnnotatedClass(Endereco.class);
             sf = cfg.buildSessionFactory();
         }
        

@@ -5,11 +5,10 @@
  */
 package entidade.teste;
 
-import entidade.usuario;
+import com.mycompany.sistema.Usuario;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import util.sessaohibernate;
-
 
 /**
  *
@@ -22,23 +21,23 @@ public class testeHibernate {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-            Session sessao = sessaohibernate.nova();
-            
-            System.out.println("CRIANDO O USUARIO");
-            usuario user = new usuario();
-            user.setEmail("maryreis251@gmail.com");
-            user.setNome("Mary");
-            user.setSenha("abc");
-            user.setSobrenome("Reis");
-            
-             System.out.println("SALVANDO USUARIO");
+        Session sessao = sessaohibernate.nova();
+
+        System.out.println("CRIANDO O USUARIO");
+        Usuario user = new Usuario();
+        user.setEmail("maryreis251@gmail.com");
+        user.setNome("Mary");
+        user.setSenha("abc");
+        user.setSobrenome("Reis");
+
+        System.out.println("SALVANDO USUARIO");
         Transaction tx = sessao.beginTransaction();
         sessao.save(user);
         tx.commit();
         System.out.println("USUARIO SALVO");
         sessao.close();
         System.out.println("SESSAO FECHADA");
-                    
+
     }
-    
+
 }

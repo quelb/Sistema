@@ -1,5 +1,9 @@
-package entidade;
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.mycompany.sistema;
 
 import java.io.Serializable;
 import javax.persistence.Entity;
@@ -21,7 +25,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="favorita")
 
-public class favorita  implements Serializable  {
+public class Favorita  implements Serializable  {
 
     /**
      * @return the cod_fav
@@ -64,7 +68,7 @@ public class favorita  implements Serializable  {
     public void setCod_produto(int cod_produto) {
         this.cod_produto = cod_produto;
     }
-        public favorita () {
+        public Favorita () {
             
         }
     @Id 

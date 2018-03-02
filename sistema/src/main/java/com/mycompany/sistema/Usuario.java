@@ -1,4 +1,4 @@
-package entidade;
+package com.mycompany.sistema;
 
 
 import java.io.File;
@@ -24,7 +24,7 @@ import javax.persistence.Table;
  @Entity
  @Table(name="usuario")
  
- public class usuario implements Serializable {
+ public class Usuario implements Serializable {
 
     /**
      * @return the cod_usuario
@@ -39,7 +39,7 @@ import javax.persistence.Table;
     public void setCod_usuario(Integer cod_usuario) {
         this.cod_usuario = cod_usuario;
     }
- public usuario () {
+ public Usuario () {
             
         }
     @Id 

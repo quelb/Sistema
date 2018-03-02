@@ -1,5 +1,9 @@
-package entidade;
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.mycompany.sistema;
 
 import java.io.File;
 import java.io.Serializable;
@@ -22,7 +26,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="looks")
 
-public class looks  implements Serializable {
+public class Looks  implements Serializable {
 
     /**
      * @return the cod_publi
@@ -121,7 +125,7 @@ public class looks  implements Serializable {
     public void setTamanho(String tamanho) {
         this.tamanho = tamanho;
     }
-        public looks () {
+        public Looks () {
             
         }
     @Id 
