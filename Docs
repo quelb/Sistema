@@ -22,9 +22,7 @@ O usuário (que é um fornecedor) pode adicionar mais produtos ou retirá-los qu
 
 Os produtos devem apresentar: fotos, descrição, condições de uso, preço, quantidade de vezes que foram usados, tamanho, opção de troca (sim ou não)  e dicas (campo não obrigatório).
 
-
-Os produtos que apresentarem a opção troca devem estar marcados e ter a opção de proposta. 
-
+0
 O site deve ter a opção de chat para os fornecedores e usuários. 
 
 O usuário deve ter acesso ao perfil dele no qual poderá editar as informações se necessário e é onde ficarão as publicações. 
