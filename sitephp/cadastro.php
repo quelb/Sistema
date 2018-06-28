@@ -100,7 +100,7 @@
       <label for="rua">Rua:</label>
      </td>
      <td align="left">
-      <input type="text" name="rua">
+      <input type="text" name="rua" size="100">
      </td>
      <td>
       <label for="numero">Numero:</label>
