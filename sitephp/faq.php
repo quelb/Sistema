@@ -27,7 +27,7 @@
 
 					<!-- Content -->
 						<h2 id="content">Como assinar um plano?</h2>
-						<p> 	Antes de assinar um plano é necessário que você se cadastre no site. Após se cadastrar você deve acessar <a href="planos.php">planos</a> para escolher o plano que você deseja assinar. No plano escolhido há uma opção de "assine já" que solicitará suas infomações do cartão nde crédito.</p> 
+						<p> 	Antes de assinar um plano é necessário que você se cadastre no site. Após se cadastrar você deve acessar <a href="planos.php">planos</a> para escolher o plano que você deseja assinar. No plano escolhido há uma opção de "assine já" que solicitará suas infomações do cartão de crédito.</p> 
 						</br>
 						<h2 id="content">Como alugar um produto?</h2>
 						<p> 	Para conseguir alugar um produto você deve ser assinante de um plano. Caso ainda não seja basta clicar <a href="planos.php">aqui </a> para assinar. Caso seja assinante, basta clicar no produto que seja e adionálo ao carrinho. Após selecionar todos os produtos que deseja alugar você deve ir em "pacote" e confirmar seu aluguel.</p> 
@@ -36,7 +36,13 @@
 						<h2 id="content">Como meus produtos chegam até mim?</h2>
 						<p>Após confirmar seu aluguel, as peças são separadas e a transportadora levará até a sua casa em uma data informada na confirmação do aluguel.</p> 
 						<h2 id="content">Como devolver os produtos que aluguei?</h2>
-						<p></p> 
+						<p>Após um mês do recebimento dos produtos, a transportadora passa para pegar o pacote alugado (e levará um novo pacote caso já tenha confirmado um novo aluguel).</p> 
+						<h2 id="content">Como encontrar um produto que já aluguei?</h2>
+						<p>Os produtos já alugados por você ficam no seu closet, que você pode acessar clicando <a href="closet.php">aqui</a>.</p> 
+						<h2 id="content">Como posso enviar produtos para serem alugados?</h2>
+						<p>Para enviar seus produtos você deve criar uma loja. Para criar sua loja clique <a href="criarloja.php">aqui</a>. </p> 
+					</div>
+					</section>
 
 						
 		<!-- Footer -->
