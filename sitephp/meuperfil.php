@@ -29,7 +29,7 @@
 
 						
 						<ul class="actions">
-							<li><a href="loja.html" class="button alt">Lojinha</a></li>
+							<li><a href="loja.php" class="button alt">Lojinha</a></li>
 						</ul>
 						<ul class="actions small">
 							<li><a href="#" class="button alt small">Seguidores</a></li>
@@ -92,7 +92,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="actions">
-							<li><a href="index.html" class="button alt">Infinite Closet</a></li>
+							<li><a href="index.php" class="button alt">Infinite Closet</a></li>
 						</ul>
 					</footer>
 

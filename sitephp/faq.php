@@ -41,6 +41,7 @@
 						<p>Os produtos já alugados por você ficam no seu closet, que você pode acessar clicando <a href="closet.php">aqui</a>.</p> 
 						<h2 id="content">Como posso enviar produtos para serem alugados?</h2>
 						<p>Para enviar seus produtos você deve criar uma loja. Para criar sua loja clique <a href="criarloja.php">aqui</a>. </p> 
+					
 					</div>
 					</section>
 

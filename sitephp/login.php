@@ -37,7 +37,7 @@
 					        <div class="bar"></div>
 					      </div>
 					      <div class="button-container">
-					        <button><span> <a href="index.html" class="button alt"> Entrar </span></button></a>
+					        <button><span> <a href="meuperfil.php" class="button alt"> Entrar </span></button></a>
 					      </div>
 					      <div class="footer"><a href="#">Esqueceu sua senha?</a></div>
 					    </form>
