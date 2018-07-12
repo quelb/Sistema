@@ -33,7 +33,7 @@ public class Avalia  implements Serializable  {
      */
     public int getCod_avaliacao() {
         return cod_avaliacao;
-    }
+    } 
 
     /**
      * @param cod_avaliacao the cod_avaliacao to set
