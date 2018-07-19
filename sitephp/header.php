@@ -20,7 +20,7 @@
 				<ul class="links">
 					<li><a href="index.php">Home</a></li>
 					<li><a href="produtos.php">Produtos</a></li>
-					<li><a href="meuperfil.html">Meu perfil</a></li>
+					<li><a href="meuperfil.php">Meu perfil</a></li>
 					<li><a href="looks.php">Looks</a></li>
 					<li><a href="planos.php">Planos</a></li>
 					<li><a href="lojas.php">Lojas</a></li>

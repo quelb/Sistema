@@ -41,7 +41,11 @@ include("loginServlet.php"); //Confirmará o Email e a Senha
 					        <div class="bar"></div>
 					      </div>
 					      <div class="button-container">
+<<<<<<< HEAD
 					        <button type="submit" name="submit"> Entrar </button></a>
+=======
+					        <button><span> <a href="meuperfil.php" class="button alt"> Entrar </span></button></a>
+>>>>>>> a3d720bb576ab6ab2132ab97084af2ee18cc7916
 					      </div>
 					      <div class="footer"><a href="#">Esqueceu sua senha?</a></div>
 					    </form>

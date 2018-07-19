@@ -83,7 +83,7 @@
 										</table>
 									</div>
 									<ul class="actions">
-										<li><a href="criarloja.html" class="button alt small">Confirmar aluguel</a></li>
+										<li><a href="closet.php" class="button alt small">Confirmar aluguel</a></li>
 									</ul>
 
 							
