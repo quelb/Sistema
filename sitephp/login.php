@@ -1,3 +1,7 @@
+<?php
+include("loginServlet.php"); //Confirmará o Email e a Senha
+?>
+
 <!DOCTYPE HTML>
 <!--
 	Intensify by TEMPLATED
@@ -25,19 +29,19 @@
 					  <div class="card"></div>
 					  <div class="card">
 					    <h1 class="title">Login</h1>
-					    <form>
+					    <form action="loginServlet.php" method="post">
 					      <div class="input-container">
-					        <input type="#{type}" id="#{label}" required="required"/>
-					        <label for="#{label}">E-mail</label>
+					        <input type="text" id="#{label}" name="email" required="required"/>
+					        <label for="#{label}" >E-mail</label>
 					        <div class="bar"></div>
 					      </div>
 					      <div class="input-container">
-					        <input type="#{type}" id="#{label}" required="required" />
+					        <input type="text" id="#{label}" name="senha" required="required" />
 					        <label for="#{label}">Senha</label>
 					        <div class="bar"></div>
 					      </div>
 					      <div class="button-container">
-					        <button><span> <a href="index.html" class="button alt"> Entrar </span></button></a>
+					        <button type="submit" name="submit"> Entrar </button></a>
 					      </div>
 					      <div class="footer"><a href="#">Esqueceu sua senha?</a></div>
 					    </form>
@@ -49,13 +53,6 @@
 				</div>
 			</section>
 			
-		
-
-
-
-		<!-- Footer -->
-			
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>

@@ -14,7 +14,7 @@
       <div id="cadastro">
       <section id="three" class="wrapper">
         <div class="inner flex flex-3">
-   <form action="Script_do_Formulario.php" method="post">
+   <form action="test.php" method="post">
     <h1>Cadastre-se em nosso site ♥ </h1>
 
   <!-- DADOS PESSOAIS-->
@@ -29,7 +29,7 @@
       <label for="nome">Nome: </label>
      </td>
      <td align="left">
-      <input type="text" name="email">
+      <input type="text" name="nome">
      </td>
      <td>
       <label for="sobrenome">Sobrenome: </label>
@@ -49,7 +49,7 @@
         <label for="telefone">Telefone:</label>
       </td>
            <td align="left">
-      <input type="text" name="telefone" value=" +55 ( ) xxxxx-xxxx" >
+      <input type="text" name="telefone" >
      </td>
 
 
@@ -59,9 +59,7 @@
       <label>Nascimento: </label>
      </td>
      <td align="left">
-      <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
-     <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
-     <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+      <input type="date" name="nascimento" > 
      </td>
      <td>
         <label for="tam">Tamanho:</label>
@@ -100,7 +98,7 @@
       <label for="rua">Rua:</label>
      </td>
      <td align="left">
-      <input type="text" name="rua" size="100">
+      <input type="text" name="rua">
      </td>
      <td>
       <label for="numero">Numero:</label>
@@ -199,7 +197,7 @@
       <label for="pass">Senha: </label>
      </td>
      <td align="left">
-      <input type="password" name="pass">
+      <input type="password" name="senha">
      </td>
     </tr>
     <tr>
@@ -207,14 +205,14 @@
       <label for="passconfirm">Confirme a senha: </label>
      </td>
      <td align="left">
-      <input type="password" name="passconfirm">
+      <input type="password" name="">
      </td>
     </tr>
    </table>
   </fieldset>
   <br />
   <input type="submit">
-  <input type="reset" value="Limpar">
+  <input  value="Limpar">
   </form>
 
   </div>

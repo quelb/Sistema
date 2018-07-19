@@ -34,7 +34,7 @@
 										</div>
 									</form>
 									<ul class="actions">
-										<li><a href="criarloja.php" class="button alt small">Criar loja</a></li>
+										<li><a href="criarloja.html" class="button alt small">Criar loja</a></li>
 									</ul>
 									
 
