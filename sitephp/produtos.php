@@ -21,15 +21,15 @@
 			<section id="banner">
 				<div class="content">
 					<ul class="actions">
-						<li><a href="feminino.html" class="button scrolly">Roupas</a></li>
+						<li><a href="femenino.php" class="button scrolly">Roupas</a></li>
 					</ul>
 					<ul class="actions">
-						<li><a href="acessorios.html" class="button scrolly">Acessórios</a></li>
+						<li><a href="acessorios.php" class="button scrolly">Acessórios</a></li>
 					</ul>
 
 					</br>
 					<ul class="actions">
-						<li><a href="premium.html" class="button scrolly">Produtos premium</a></li>
+						<li><a href="premium.php" class="button scrolly">Produtos premium</a></li>
 					</ul>
 
 				</div>

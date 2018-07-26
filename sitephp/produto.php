@@ -30,13 +30,13 @@
 									<p><span class="image left"><img src="images/l1.jpg" alt="" /></span> Tamanho: P</p> <p>Preço original: 89,90</p> <p>Condições: Nunca usado</p> <p>Material: Camursa</p> 
 									</br>
 									<ul class="actions">
-										<li><a href="pacote.html" class="button">Adicionar ao pacote</a></li>
+										<li><a href="pacote.php" class="button">Adicionar ao pacote</a></li>
 									</ul>
 									<ul class="actions">
-										<li><a href="loja.html" class="button alt small">Visitar loja</a></li>
+										<li><a href="loja.php" class="button alt small">Visitar loja</a></li>
 									</ul>
 									<ul class="actions">
-										<li><a href="loja.html" class="button alt small">❤</a></li>
+										<li><a href="loja.php" class="button alt small">❤</a></li>
 									</ul>
 									
 									</br>
