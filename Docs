@@ -8,7 +8,7 @@ Basicamente o usuário irá montar o seu pacote de peças que será entregue sem
 Ainda há a possibilidade dos usuários adicionarem outros usuários e compartilharem looks que montaram com os produtos do site. 
 
 
-Requisitos Funcionais:
+Requisitos Funcionais: 
 
 
 
@@ -33,7 +33,7 @@ O usuário pode editar, mas não apagar suas postagens.
 
 Os produtos selecionados pelo o usuário para alugar devem ser direcionados para o closet, e não serem mais mostrados como disponíveis para os demais usuários. O closet deve pedir a confirmação do aluguel e só completar o pacote após a confirmação que todas as peças foram selecionadas e dizer uma data prevista para a entrega.
 
-O login deve solicitar e-mail e senha.               
+O login deve solicitar e-mail e senha.                  
 
 O site deve conter um faq com dúvidas frequentes (página estática).
 
@@ -43,7 +43,7 @@ O site deve apresentar a opção de reclamação aos usuários, para que haja po
 
 O usuário pode adicionar produtos a sua lista de desejos. 
 
-O site deve conter uma aba com a mesma, onde estarão os produtos salvos. 
+O site deve conter uma aba com a mesma, onde estarão os produtos salvos.   
 
 Os usuários podem seguir suas lojas favoritas.
 
@@ -65,7 +65,7 @@ A página principal do aplicativo deve conter as opções: produtos (que ao entr
 
 
 
-Requisitos não-funcionais: 
+Requisitos não-funcionais:  
 
 O aplicativo será programado em linguagem JAVA.
 

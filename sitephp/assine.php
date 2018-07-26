@@ -8,7 +8,7 @@
     </head>
       <body class="subpage">
          <header id="header">
-            <a href="index.html" class="logo">Infinite Closet</a>
+            <a href="index.php" class="logo">Infinite Closet</a>
         
       </header>
       <div id="cadastro">

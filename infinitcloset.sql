@@ -217,8 +217,7 @@ ALTER TABLE `favorita`
   ADD KEY `fki_usuario_favorita` (`cod_usuario`),
   ADD KEY `fki_produto_avalia` (`cod_produto`);
 
---
--- Indexes for table `loja`
+-
 --
 ALTER TABLE `loja`
   ADD PRIMARY KEY (`cod_loja`),
@@ -268,3 +267,5 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+-- Indexes for table `loja`

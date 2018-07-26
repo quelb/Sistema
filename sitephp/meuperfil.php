@@ -29,13 +29,13 @@
 
 						
 						<ul class="actions">
-							<li><a href="loja.html" class="button alt">Lojinha</a></li>
+							<li><a href="loja.php" class="button alt">Lojinha</a></li>
 						</ul>
 						<ul class="actions small">
 							<li><a href="#" class="button alt small">Seguidores</a></li>
 							<li><a href="#" class="button alt small">Seguindo</a></li>
 							<li><a href="#" class="button alt small">Desejos</a></li>
-							<li><a href="#" class="button alt small">Closet</a></li>
+							<li><a href="closet.php" class="button alt small">Closet</a></li>
 						</ul>
 
 						<ul class="icons">
@@ -92,7 +92,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="actions">
-							<li><a href="index.html" class="button alt">Infinite Closet</a></li>
+							<li><a href="index.php" class="button alt">Infinite Closet</a></li>
 						</ul>
 					</footer>
 

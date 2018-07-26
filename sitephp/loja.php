@@ -34,7 +34,7 @@
 						<ul class="actions small">
 							<li><a href="#" class="button alt small">Seguidores</a></li>
 							<li><a href="#" class="button alt small">Avaliações</a></li>
-							<li><a href="meuperfil.html" class="button alt small">Criadora</a></li>
+							<li><a href="meuperfil.php" class="button alt small">Criadora</a></li>
 							<li><a href="#" class="button alt small">Contato</a></li>
 						</ul>
 						<ul class="actions">
@@ -55,7 +55,7 @@
 						<!-- Thumbnails -->
 							<section class="thumbnails">
 								<div>
-									<a href="produto.html">
+									<a href="produto.php">
 										<img src="images/thumbs/l1.jpg" />
 										<h3>Produto Premium</h3>
 									</a>
@@ -95,7 +95,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="actions">
-							<li><a href="index.html" class="button alt">Infinite Closet</a></li>
+							<li><a href="index.php" class="button alt">Infinite Closet</a></li>
 						</ul>
 					</footer>
 
