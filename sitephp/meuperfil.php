@@ -35,7 +35,7 @@
 							<li><a href="#" class="button alt small">Seguidores</a></li>
 							<li><a href="#" class="button alt small">Seguindo</a></li>
 							<li><a href="#" class="button alt small">Desejos</a></li>
-							<li><a href="#" class="button alt small">Closet</a></li>
+							<li><a href="closet.php" class="button alt small">Closet</a></li>
 						</ul>
 
 						<ul class="icons">
