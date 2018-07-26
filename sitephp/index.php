@@ -23,8 +23,16 @@
 					<p>Renove-se a cada mês gastando pouco.<br />Receba compartilhando ♥ </p>
 					<ul class="actions">
 						<li><a href="#one" class="button scrolly">Saiba mais</a></li>
+						</br>
+						
 					</ul>
 				</div>
+				<div class="content">
+				<ul class="actions">
+				<li><a href="cadastro.php" class="button scrolly">Cadastre-se</a></li>
+				</ul>
+				</div>
+
 			</section>
 
 		<!-- One -->
