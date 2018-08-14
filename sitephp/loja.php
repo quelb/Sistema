@@ -38,7 +38,7 @@
 							<li><a href="#" class="button alt small">Contato</a></li>
 						</ul>
 						<ul class="actions">
-							<li><a href="#" class="button alt">Novo produto</a></li>
+							<li><a href="cadastroprod.php" class="button alt">Novo produto</a></li>
 						</ul>
 
 						<ul class="icons">
