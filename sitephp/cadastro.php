@@ -212,7 +212,7 @@
   </fieldset>
   <br />
   <input type="submit">
-  <input  value="Limpar">
+  <input type="reset" value="Limpar">
   </form>
 
   </div>
