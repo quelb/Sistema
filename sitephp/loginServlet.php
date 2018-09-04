@@ -4,7 +4,7 @@
 $error=''; 
 if(isset($_POST['submit'])){
  if(empty($_POST['email']) || empty($_POST['senha'])){
- $error = "Usuário ou senha errado";
+ $error = "errologin.php";
  }
  else
  {
