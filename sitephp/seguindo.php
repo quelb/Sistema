@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Seguidores</title>
+		<title>Seguindo</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,11 +22,11 @@
 					
 
 					<!-- Content -->
-					<h1>Meus seguidores</h1>
+					<h1>Seguindo</h1>
 					<form method="post" action="#">
 										<div class="row uniform">
 											<div class="9u 12u$(small)">
-												<input type="text" name="pesquisar" id="pesquisar" value="" placeholder="Encontre um seguidor" />
+												<input type="text" name="pesquisar" id="pesquisar" value="" placeholder="Encontre alguém que vocẽ segue" />
 											</div>
 											<div class="3u$ 12u$(small)">
 												<input type="submit" value="Buscar" class="fit" />
@@ -34,7 +34,7 @@
 										</div>
 									</form>
 									<ul class="actions">
-										<li><a href="criarloja.php" class="button alt small">Editar Seguidores</a></li>
+										<li><a href="criarloja.php" class="button alt small">Parar de seguir alguém</a></li>
 									</ul>
 									
 
