@@ -32,7 +32,7 @@
 							<li><a href="loja.php" class="button alt">Lojinha</a></li>
 						</ul>
 						<ul class="actions small">
-							<li><a href="#" class="button alt small">Seguidores</a></li>
+							<li><a href="seguidores.php" class="button alt small">Seguidores</a></li>
 							<li><a href="#" class="button alt small">Seguindo</a></li>
 							<li><a href="#" class="button alt small">Desejos</a></li>
 							<li><a href="closet.php" class="button alt small">Closet</a></li>
