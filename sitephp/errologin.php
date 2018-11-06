@@ -21,9 +21,9 @@
 				<div class="content">
 					<h1>OPS! :( </h1>
 					<p>Você ainda não é cadastrado, para fazer login cadatre-se ♥ <br />Caso seja cadastrado e não esteja conseguindo entrar avise-nos.</p>
-					<ul class="actions">
+				<!--	<ul class="actions">
 						<li><a href="contato.php" class="button scrolly">Entre em contato</a></li>
-						</br>
+						</br> -->
 						
 					</ul>
 				</div>
