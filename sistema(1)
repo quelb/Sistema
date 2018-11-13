@@ -1,0 +1,4 @@
+#!/bin/bash
+git config user.email "$1"
+git config user.name "$2"
+git config --global push.default simple
