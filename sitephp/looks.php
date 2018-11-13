@@ -23,6 +23,10 @@
 
 					<!-- Content -->
 					<h1>Looks</h1>
+
+					<ul class="actions">
+						<li><a href="postagem.php" class="button alt small">Enviar Post</a></li>
+						</ul>
 					
 					<section id="three" class="wrapper">
 				<div class="inner flex flex-3">
