@@ -1,6 +1,4 @@
-<?php
-include("loginServlet.php"); //Confirmará o Email e a Senha
-?>
+
 
 <!DOCTYPE HTML>
 <!--
@@ -29,10 +27,10 @@ include("loginServlet.php"); //Confirmará o Email e a Senha
 					  <div class="card"></div>
 					  <div class="card">
 					    <h1 class="title">Login</h1>
-					    <form action="loginServlet.php" method="post">
+					    <form action="logins.php" method="post">
 					      <div class="input-container">
-					        <input type="text" id="#{label}" name="username" required="required"/>
-					        <label for="#{label}" >Nome de usuário</label>
+					        <input type="text" id="#{label}" name="user" required="required"/>
+					        <label for="#{label}" >E-mail</label>
 					        <div class="bar"></div>
 					      </div>
 					      <div class="input-container">

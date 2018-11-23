@@ -56,14 +56,6 @@
       <input type="text" name="nameone" value="roupas/premium/acessórios">
      </td>
     </tr>
-    <tr>
-     <td>
-      <label for="descri">Descrição da Loja: </label>
-     </td>
-     <td align="left">
-      <input type="text" name="descri" value="">
-     </td>
-    </tr>
    </table>
   </fieldset>
   <br />

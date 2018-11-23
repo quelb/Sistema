@@ -40,10 +40,10 @@
     </tr>
     <tr>
       <td>
-        <label for="username">Nome de usuário:</label>
+        <label for="apelido">Apelido:</label>
       </td>
            <td align="left">
-      <input type="text" name="username">
+      <input type="text" name="apelido">
      </td>
      <td>
         <label for="telefone">Telefone:</label>

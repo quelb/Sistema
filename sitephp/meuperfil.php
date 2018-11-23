@@ -1,3 +1,15 @@
+<?php
+   header("Content-Type: text/html; charset=ISO-8859-1",true);
+   require_once("functions.php");
+   seguranca();
+   $username = $_SESSION['user']['username'];
+   $nome = $_SESSION['user']['nome'];
+   $email = $_SESSION['user']['email'];
+
+   //ISSO DEVE ESTAR NO INICIO DE CADA PÁGINA QUE O USUÁRIO USAR APÓS O LOGIN
+?>
+
+
 <!DOCTYPE HTML>
 <!--
 	Visualize by TEMPLATED
@@ -24,7 +36,7 @@
 						
 						<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
 						<h6>Editar Perfil</h6>
-						<h1> <strong> Elisa Ferreira </strong> <br />
+						<h1> <strong> <?php echo $nome?> </strong> <br />
 						"Enquanto você for o que os outros querem que você seja, você não será ninguém."</h1>
 
 						
@@ -32,8 +44,8 @@
 							<li><a href="loja.php" class="button alt">Lojinha</a></li>
 						</ul>
 						<ul class="actions small">
-							<li><a href="seguidores.php" class="button alt small">Seguidores</a></li>
-							<li><a href="seguindo.php" class="button alt small">Seguindo</a></li>
+							<li><a href="#" class="button alt small">Seguidores</a></li>
+							<li><a href="#" class="button alt small">Seguindo</a></li>
 							<li><a href="#" class="button alt small">Desejos</a></li>
 							<li><a href="closet.php" class="button alt small">Closet</a></li>
 						</ul>

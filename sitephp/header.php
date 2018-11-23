@@ -24,8 +24,6 @@
 					<li><a href="looks.php">Looks</a></li>
 					<li><a href="planos.php">Planos</a></li>
 					<li><a href="lojas.php">Lojas</a></li>
-					<li><a href="loja.php">Minha loja</a></li>
-
 
 
 

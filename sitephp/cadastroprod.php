@@ -1,7 +1,7 @@
  <!DOCTYPE html>
   <html>
     <head>
-      <title>Cadastrar produto</title>
+      <title>Criar loja</title>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="stylesheet" href="assets/css/main.css" />
@@ -58,7 +58,7 @@
     </tr>
     <tr>
      <td>
-      <label for="imagem">Imagem do produto:</label>
+      <label for="imagem">Imagem de perfil:</label>
      </td>
      <td>
       <input type="file" name="imagem" >
