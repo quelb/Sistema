@@ -5,7 +5,7 @@
    $username = $_SESSION['user']['username'];
    $nome = $_SESSION['user']['nome'];
    $email = $_SESSION['user']['email'];
-
+   $sobrenome = $_SESSION['user']['sobrenome'];
    //ISSO DEVE ESTAR NO INICIO DE CADA PÁGINA QUE O USUÁRIO USAR APÓS O LOGIN
 ?>
 
@@ -36,7 +36,7 @@
 						
 						<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
 						<h6>Editar Perfil</h6>
-						<h1> <strong> <?php echo $nome?> </strong> <br />
+						<h1> <strong> <?php echo $nome?></strong> </br> <?php echo $sobrenome?> </strong> <br />
 						"Enquanto você for o que os outros querem que você seja, você não será ninguém."</h1>
 
 						
