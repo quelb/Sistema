@@ -43,7 +43,7 @@
         <label for="apelido">Apelido:</label>
       </td>
            <td align="left">
-      <input type="text" name="apelido">
+      <input type="text" name="username">
      </td>
      <td>
         <label for="telefone">Telefone:</label>

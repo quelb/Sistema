@@ -23,6 +23,21 @@
 
 					<!-- Content -->
 					<h1>Looks</h1>
+					<form method="post" action="#">
+										<div class="row uniform">
+											<div class="9u 12u$(small)">
+												<input type="text" name="pesquisar" id="pesquisar" value="" placeholder="Pesquise um post" />
+											</div>
+											<div class="3u$ 12u$(small)">
+												<input type="submit" value="Buscar" class="fit" />
+											</div>
+										</div>
+									</form>
+									<ul class="actions">
+										<li><a href="postar.php" class="button alt small">Nova postagem</a></li>
+									</ul>
+									
+
 					
 					<section id="three" class="wrapper">
 				<div class="inner flex flex-3">

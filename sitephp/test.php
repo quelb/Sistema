@@ -7,7 +7,7 @@
 		echo 'deu ruim';
 	}
 	//Coloquem o nome do BD que esta entre "test";
-	if(!mysqli_select_db($con, 'infinitecloset'))
+	if(!mysqli_select_db($con, 'INFINITE'))
 	{
 		echo 'BD não selecionado';
 	}
@@ -16,7 +16,6 @@
 	$email = $_POST['email'];
 	$senha = $_POST['senha'];
 	$sobrenome = $_POST['sobrenome'];
-	$apelido = $_POST['apelido'];
     $rg = $_POST['rg'];
 	$tamanho = $_POST['tamanho'];
 	$cpf = $_POST['cpf'];
@@ -28,6 +27,7 @@
 	$numero= $_POST['numero'];
 	$cidade= $_POST['cidade'];
 	$cep= $_POST['cep'];
+	$username = $_POST['username'];
 
 
 
@@ -35,7 +35,7 @@
 
 
 	//coloquem o nome da tabela que quer cadastrar depois de usuario e depois os nomes das strings e depois de VALUES coloquem as strings criadas
-	$sql = "INSERT INTO usuario (nome, email, senha, sobrenome, apelido, rg, tamanho, cpf, telefone, nascimento, bairro, rua, estado, numero, cidade, cep) VALUES ('$nome', '$email', '$senha', '$sobrenome', '$apelido', '$rg', '$tamanho', '$cpf', '$telefone', '$nascimento', '$bairro', '$rua', '$estado', '$numero', '$cidade', '$cep')"; 
+	$sql = "INSERT INTO usuario (nome, email, senha, sobrenome, rg, tamanho, cpf, telefone, nascimento, bairro, rua, estado, numero, cidade, cep, username) VALUES ('$nome', '$email', '$senha', '$sobrenome', '$rg', '$tamanho', '$cpf', '$telefone', '$nascimento', '$bairro', '$rua', '$estado', '$numero', '$cidade', '$cep', '$username')"; 
 	
 	if(!mysqli_query($con,$sql))
 	{
