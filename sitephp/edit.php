@@ -14,6 +14,12 @@
 	<title>edit</title>
 </head>
 <body>
+<section id="banner">
+        <div class="content">
+        <div class="login">
+            <div class="card"></div>
+            <div class="card">
+              <h1 class="title">alterar dados</h1>
 <form action="EDITSERV.php" method="post">
 <label>username</label>
  <td align="left">
@@ -29,5 +35,9 @@
 
 <button type="update" name="update"></button>
 </form>
+</div>
+</div>
+</div>
+</section>
 </body>
 </html>
