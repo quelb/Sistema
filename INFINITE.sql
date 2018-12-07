@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Tempo de geração: 13/11/2018 às 10:30
+-- Generation Time: 07-Dez-2018 às 11:54
 -- Versão do servidor: 5.7.18-0ubuntu0.16.04.1
--- Versão do PHP: 7.0.18-0ubuntu0.16.04.1
+-- PHP Version: 7.0.18-0ubuntu0.16.04.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,13 +17,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `infinitecloset`
+-- Database: `INFINITE`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `avalia`
+-- Estrutura da tabela `avalia`
 --
 
 CREATE TABLE `avalia` (
@@ -39,7 +39,7 @@ CREATE TABLE `avalia` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `endereco`
+-- Estrutura da tabela `endereco`
 --
 
 CREATE TABLE `endereco` (
@@ -57,7 +57,7 @@ CREATE TABLE `endereco` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `favorita`
+-- Estrutura da tabela `favorita`
 --
 
 CREATE TABLE `favorita` (
@@ -69,13 +69,12 @@ CREATE TABLE `favorita` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `loja`
+-- Estrutura da tabela `loja`
 --
 
 CREATE TABLE `loja` (
   `cod_loja` int(11) NOT NULL,
   `descricao` varchar(200) DEFAULT NULL,
-  `cod_usuario` int(11) DEFAULT NULL,
   `nomeloja` varchar(20) NOT NULL,
   `nomeusuario` varchar(100) NOT NULL,
   `emailloja` varchar(50) NOT NULL,
@@ -85,7 +84,7 @@ CREATE TABLE `loja` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `looks`
+-- Estrutura da tabela `looks`
 --
 
 CREATE TABLE `looks` (
@@ -101,7 +100,7 @@ CREATE TABLE `looks` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `pacote`
+-- Estrutura da tabela `pacote`
 --
 
 CREATE TABLE `pacote` (
@@ -113,7 +112,7 @@ CREATE TABLE `pacote` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `plano`
+-- Estrutura da tabela `plano`
 --
 
 CREATE TABLE `plano` (
@@ -127,7 +126,7 @@ CREATE TABLE `plano` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `produtos`
+-- Estrutura da tabela `produtos`
 --
 
 CREATE TABLE `produtos` (
@@ -148,7 +147,7 @@ CREATE TABLE `produtos` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `troca`
+-- Estrutura da tabela `troca`
 --
 
 CREATE TABLE `troca` (
@@ -162,7 +161,7 @@ CREATE TABLE `troca` (
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `usuario`
+-- Estrutura da tabela `usuario`
 --
 
 CREATE TABLE `usuario` (
@@ -170,7 +169,6 @@ CREATE TABLE `usuario` (
   `senha` varchar(100) DEFAULT NULL,
   `nome` varchar(100) DEFAULT NULL,
   `sobrenome` varchar(100) DEFAULT NULL,
-  `apelido` varchar(100) DEFAULT NULL,
   `foto` longblob,
   `cpf` varchar(11) DEFAULT NULL,
   `rg` varchar(10) DEFAULT NULL,
@@ -183,34 +181,37 @@ CREATE TABLE `usuario` (
   `Estado` varchar(200) NOT NULL,
   `numero` varchar(10000) NOT NULL,
   `cidade` varchar(100) NOT NULL,
-  `cep` varchar(100) NOT NULL
+  `cep` varchar(100) NOT NULL,
+  `username` varchar(200) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
--- Fazendo dump de dados para tabela `usuario`
+-- Extraindo dados da tabela `usuario`
 --
 
-INSERT INTO `usuario` (`email`, `senha`, `nome`, `sobrenome`, `apelido`, `foto`, `cpf`, `rg`, `telefone`, `tamanho`, `nascimento`, `codusuario`, `rua`, `bairro`, `Estado`, `numero`, `cidade`, `cep`) VALUES
-('luanete.almeida09@gmail.com', '321', 'Letycia', 'Almeida', 'lety', NULL, '10842481745', '36546876', '2299912111', 'G', '2200-12-22', 42, 'boa paba', 'altoalegre', 'es', '511', 'Vila Velha', '29113060'),
-('mary@gmail.com', '4545', 'Mariana', 'Reis', 'LIsa', NULL, '10842481745', '36546876', '2299912111', 'G', '1111-02-03', 41, 'dada', 'altoalegre', 'rj', '511', 'Carapebus', '27998000'),
-('Elisa@gmail.com', '987', 'elisa', 'Ferreira', 'LIsa', NULL, '10842481745', '36546876', '2299912111', ' G', '2018-01-23', 40, 'dias', 'Jusu', 'rj', '511', 'Carapebus', '27998000'),
-('Elisa@gmail.com', '741', 'elisa', 'Ferreira', 'LIsa', NULL, '10842481745', '365468767', '2299912111', ' G', '2000-02-02', 47, 'dias', 'Jusu', 'rj', '511', 'Carapebus', '27998000'),
-('quequel@gmail.com', '45678', 'Raquel', 'Barcelos', 'quel', NULL, '10842481745', '36546876', '2299912111', 'G', '2015-01-01', 48, 'dada', 'Jusu', 'rj', '511', 'Carapebus', '27998000'),
-('mary@gmail.com', '234', 'Mariana', 'Reis', '', NULL, '10842481745', '36546876', '2299912111', 'GG', '2018-01-31', 49, 'dada', 'Jusu', 'rj', '511', 'Carapebus', '27998000'),
-('quequel@gmail.com', '123', 'Raquel', 'Barcelos', 'LIsa', NULL, '10842481745', '36546876', '2299912111', ' G', '2018-01-01', 50, 'dada', 'altoalegre', 'rj', '12', 'Carapebus', '27998000'),
-('quequel@gmail.com', '123', 'Raquel', 'Barcelos', 'LIsa', NULL, '10842481745', '36546876', '2299912111', ' G', '2018-01-01', 51, 'dada', 'altoalegre', 'rj', '12', 'Carapebus', '27998000'),
-('mah@gmail.com', '321', 'Raquel', 'Barcelos', 'lety', NULL, '13521073769', '36546876', '2299912111', 'G', '2016-11-01', 52, 'dada', 'Jusu', 'rj', '511', 'Carapebus', '27998000'),
-('Elisa@gmail.com', '123', 'elisa', 'Ferreira', 'LIsa', NULL, '2,34', '36546', '2299912111', 'M', '2018-07-12', 33, 'dias', 'altoalegre', 'rj', '511', 'Carapebus', '27998000'),
-('mary@gmail.com', '852', 'Mariana', 'Reis', 'LIsa', NULL, '10842481745', '152369874', '2299912111', 'G', '1111-01-11', 44, 'dada', 'Jusu', 'rj', '511', 'Carapebus', '27998000'),
-('Elisa@gmail.com', '000', 'elisa', 'Ferreira', '', NULL, '10842481745', '987546321', '2299912111', 'G', '', 45, 'dias', 'altoalegre', 'rj', '511', 'Carapebus', '27998000'),
-('megs.dlt12@gmail.com', 'dd112233', 'Eduarda', 'Souza', 'Duda', NULL, '16314168716', '291569416', '22 999765280', 'P ', '2001-09-23', 46, 'Avenida Francisco Lamego', 'Jardim Carioca', 'rj', '70', 'Campos dos Goytacazes', '28080000');
+INSERT INTO `usuario` (`email`, `senha`, `nome`, `sobrenome`, `foto`, `cpf`, `rg`, `telefone`, `tamanho`, `nascimento`, `codusuario`, `rua`, `bairro`, `Estado`, `numero`, `cidade`, `cep`, `username`) VALUES
+('luanete.almeida09@gmail.com', '321', 'Letycia', 'Almeida', NULL, '10842481745', '36546876', '2299912111', 'G', '2200-12-22', 42, 'boa paba', 'altoalegre', 'es', '511', 'Vila Velha', '29113060', ''),
+('mary@gmail.com', '4545', 'Mariana', 'Reis', NULL, '10842481745', '36546876', '2299912111', 'G', '1111-02-03', 41, 'dada', 'altoalegre', 'rj', '511', 'Carapebus', '27998000', ''),
+('Elisa@gmail.com', '987', 'elisa', 'Ferreira', NULL, '10842481745', '36546876', '2299912111', ' G', '2018-01-23', 40, 'dias', 'Jusu', 'rj', '511', 'Carapebus', '27998000', ''),
+('Elisa@gmail.com', '741', 'elisa', 'Ferreira', NULL, '10842481745', '365468767', '2299912111', ' G', '2000-02-02', 47, 'dias', 'Jusu', 'rj', '511', 'Carapebus', '27998000', ''),
+('quequel@gmail.com', '45678', 'Raquel', 'Barcelos', NULL, '10842481745', '36546876', '2299912111', 'G', '2015-01-01', 48, 'dada', 'Jusu', 'rj', '511', 'Carapebus', '27998000', ''),
+('mary@gmail.com', '234', 'Mariana', 'Reis', NULL, '10842481745', '36546876', '2299912111', 'GG', '2018-01-31', 49, 'dada', 'Jusu', 'rj', '511', 'Carapebus', '27998000', ''),
+('quequel@gmail.com', '123', 'Raquel', 'Barcelos', NULL, '10842481745', '36546876', '2299912111', ' G', '2018-01-01', 50, 'dada', 'altoalegre', 'rj', '12', 'Carapebus', '27998000', ''),
+('quequel@gmail.com', '123', 'Raquel', 'Barcelos', NULL, '10842481745', '36546876', '2299912111', ' G', '2018-01-01', 51, 'dada', 'altoalegre', 'rj', '12', 'Carapebus', '27998000', ''),
+('mah@gmail.com', '321', 'Raquel', 'Barcelos', NULL, '13521073769', '36546876', '2299912111', 'G', '2016-11-01', 52, 'dada', 'Jusu', 'rj', '511', 'Carapebus', '27998000', ''),
+('Elisa@gmail.com', '123', 'elisa', 'Ferreira', NULL, '2,34', '36546', '2299912111', 'M', '2018-07-12', 33, 'dias', 'altoalegre', 'rj', '511', 'Carapebus', '27998000', ''),
+('mary@gmail.com', '852', 'Mariana', 'Reis', NULL, '10842481745', '152369874', '2299912111', 'G', '1111-01-11', 44, 'dada', 'Jusu', 'rj', '511', 'Carapebus', '27998000', ''),
+('Elisa@gmail.com', '000', 'elisa', 'Ferreira', NULL, '10842481745', '987546321', '2299912111', 'G', '', 45, 'dias', 'altoalegre', 'rj', '511', 'Carapebus', '27998000', ''),
+('megs.dlt12@gmail.com', 'dd112233', 'Eduarda', 'Souza', NULL, '16314168716', '291569416', '22 999765280', 'P ', '2001-09-23', 46, 'Avenida Francisco Lamego', 'Jardim Carioca', 'rj', '70', 'Campos dos Goytacazes', '28080000', ''),
+('GMAIL@GMAIL.COM', '1234', 'YUUUUUUUDD', 'CBFHSMKBGJ', NULL, '4646545', '414414', 'MASNHCBA', 'P', '', 53, 'DFGFGH', 'CAXIAS', 'ac', '1', 'QUISSAMA', '256456', ''),
+('fUNCIONANDO@GMAIL.COM', '123', 'Gabriel', 'Souza', NULL, '98547', '32147', '321', 'H', '2018-12-11', 56, 'Ruando', 'bairro', 'rj', '88', 'qUISSAMA', '13421', 'GabrielProgrammer');
 
 --
--- Índices de tabelas apagadas
+-- Indexes for dumped tables
 --
 
 --
--- Índices de tabela `avalia`
+-- Indexes for table `avalia`
 --
 ALTER TABLE `avalia`
   ADD PRIMARY KEY (`cod_avaliacao`),
@@ -218,14 +219,14 @@ ALTER TABLE `avalia`
   ADD KEY `fki_usuario_avalia` (`cod_usuario`);
 
 --
--- Índices de tabela `endereco`
+-- Indexes for table `endereco`
 --
 ALTER TABLE `endereco`
   ADD PRIMARY KEY (`cod_endereco`),
   ADD KEY `fki_usuario_endereco` (`cod_usuario`);
 
 --
--- Índices de tabela `favorita`
+-- Indexes for table `favorita`
 --
 ALTER TABLE `favorita`
   ADD PRIMARY KEY (`cod_fav`),
@@ -233,59 +234,58 @@ ALTER TABLE `favorita`
   ADD KEY `fki_produto_avalia` (`cod_produto`);
 
 --
--- Índices de tabela `loja`
+-- Indexes for table `loja`
 --
 ALTER TABLE `loja`
-  ADD PRIMARY KEY (`cod_loja`),
-  ADD KEY `fki_usuario_loja` (`cod_usuario`);
+  ADD PRIMARY KEY (`cod_loja`);
 
 --
--- Índices de tabela `looks`
+-- Indexes for table `looks`
 --
 ALTER TABLE `looks`
   ADD PRIMARY KEY (`cod_publi`),
   ADD KEY `fki_usuario` (`cod_usuario`);
 
 --
--- Índices de tabela `pacote`
+-- Indexes for table `pacote`
 --
 ALTER TABLE `pacote`
   ADD PRIMARY KEY (`cod_aluguel`),
   ADD KEY `fki_produto_pacote` (`cod_produto`);
 
 --
--- Índices de tabela `plano`
+-- Indexes for table `plano`
 --
 ALTER TABLE `plano`
   ADD PRIMARY KEY (`cod_plano`);
 
 --
--- Índices de tabela `produtos`
+-- Indexes for table `produtos`
 --
 ALTER TABLE `produtos`
   ADD PRIMARY KEY (`cod_produto`);
 
 --
--- Índices de tabela `troca`
+-- Indexes for table `troca`
 --
 ALTER TABLE `troca`
   ADD PRIMARY KEY (`cod_troca`);
 
 --
--- Índices de tabela `usuario`
+-- Indexes for table `usuario`
 --
 ALTER TABLE `usuario`
   ADD PRIMARY KEY (`codusuario`);
 
 --
--- AUTO_INCREMENT de tabelas apagadas
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT de tabela `usuario`
+-- AUTO_INCREMENT for table `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `codusuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
+  MODIFY `codusuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

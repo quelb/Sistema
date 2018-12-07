@@ -6,7 +6,7 @@
 		private $servidor = "localhost";
 		private $user = "root";
 		private $senha = "root";
-		private $banco = "infinitecloset";
+		private $banco = "INFINITE";
 
 		function conectaBanco() {
 			$con = mysqli_connect($this->servidor, $this->user, $this->senha, $this->banco);

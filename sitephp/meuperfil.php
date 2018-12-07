@@ -35,7 +35,7 @@
 
 						
 						<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-						<h6>Editar Perfil</h6>
+						<h6><a href="edit.php">Editar Perfil</h6>
 						<h1> <strong> <?php echo $nome?></strong> </br> <?php echo $sobrenome?> </strong> <br />
 						"Enquanto você for o que os outros querem que você seja, você não será ninguém."</h1>
 

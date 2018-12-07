@@ -30,7 +30,7 @@
 					    <form action="logins.php" method="post">
 					      <div class="input-container">
 					        <input type="text" id="#{label}" name="user" required="required"/>
-					        <label for="#{label}" >E-mail</label>
+					        <label for="#{label}" >Apelido</label>
 					        <div class="bar"></div>
 					      </div>
 					      <div class="input-container">
