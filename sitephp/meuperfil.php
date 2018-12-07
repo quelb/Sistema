@@ -34,11 +34,10 @@
 					<header id="header">
 
 						
-						<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+						<span class="avatar"><img src="images/avatarexemplo.jpg" alt="" /></span>
 						<h6><a href="edit.php">Editar Perfil</h6>
-						<h1> <strong> <?php echo $nome?></strong> </br> <?php echo $sobrenome?> </strong> <br />
-						"Enquanto você for o que os outros querem que você seja, você não será ninguém."</h1>
-
+						<h1> <strong> <?php echo $nome?></strong>  <?php echo $sobrenome?> </strong> <br/> </h1>
+						
 						
 						<ul class="actions">
 							<li><a href="loja.php" class="button alt">Lojinha</a></li>

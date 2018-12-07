@@ -46,10 +46,10 @@
       <input type="text" name="username">
      </td>
      <td>
-        <label for="telefone">Telefone:</label>
+        <label for="telefone">Telefone: </label>
       </td>
            <td align="left">
-      <input type="text" name="telefone" >
+      <input type="text" name="telefone" maxlength="20">
      </td>
 
 
