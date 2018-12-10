@@ -14,7 +14,7 @@
       <div id="cadastro">
       <section id="three" class="wrapper">
         <div class="inner flex flex-3">
-   <form action="Script_do_Formulario.php" method="post">
+   <form action="CadastroLoja.php" method="post">
     <h1>Faça a sua lojinha ♥ </h1>
 
     <h3>Informações da loja </h3>
@@ -53,7 +53,7 @@
       <label for="nameone">Produtos vendidos: </label>
      </td>
      <td align="left">
-      <input type="text" name="nameone" value="roupas/premium/acessórios">
+      <input type="text" name="produtos" value="roupas/premium/acessórios">
      </td>
     </tr>
    </table>
