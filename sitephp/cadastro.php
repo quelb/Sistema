@@ -14,7 +14,7 @@
       <div id="cadastro">
       <section id="three" class="wrapper">
         <div class="inner flex flex-3">
-   <form action="test.php" method="post">
+   <form action="cadususer.php" method="post">
     <h1>Cadastre-se em nosso site ♥ </h1>
 
   <!-- DADOS PESSOAIS-->
