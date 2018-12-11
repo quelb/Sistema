@@ -14,7 +14,7 @@
       <div id="cadastro">
       <section id="three" class="wrapper">
         <div class="inner flex flex-3">
-   <form action="test.php" method="post">
+   <form action="post.php" method="post">
     <h1>Compartilhe conosco ♥ </h1>
 
   <!-- DADOS PESSOAIS-->
@@ -29,7 +29,7 @@
       <label for="nome">Título do post: </label>
      </td>
      <td align="left">
-      <input type="text" name="nome">
+      <input type="text" name="titulo">
      </td>
      <tr>
      <td>
@@ -45,8 +45,7 @@
      
         <label for="mensagem">Mensagem:</label>
            <td align="left">
-           <textarea name="mensagem" rows="10" cols="40" maxlength="500">
-      </textarea>
+           <input type="text" name="descri" >
      </td>
       
       </tr>
