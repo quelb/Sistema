@@ -7,7 +7,7 @@
 		echo 'deu ruim';
 	}
 	//Coloquem o nome do BD que esta entre "test";
-	if(!mysqli_select_db($con, 'infinitecloset'))
+	if(!mysqli_select_db($con, 'inf'))
 	{
 		echo 'BD não selecionado';
 	}
