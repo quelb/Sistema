@@ -56,7 +56,7 @@
 
 		} else {
 			$message = '<h1>Senha ou username Incorretos.</h1>
-						<h3>Por favor, <a href="login.php">Tente Novamente</a></h3>';
+						<h3>Por favor, <a href="../index.html">Tente Novamente</a></h3>';
 						echo $message;
 						
 

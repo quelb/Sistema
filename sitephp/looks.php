@@ -38,76 +38,33 @@
 									</ul>
 									
 
-					
-					<section id="three" class="wrapper">
-				<div class="inner flex flex-3">
-					<div class="flex-item box">
-						<div class="image fit">
-							<img src="images/look1.jpg" alt="" />
-						</div>
-						<div class="content">
-							<h3>Elisa Ferreira</h3>
-							<p>Saia tamanho P - Lojinha: Fofurices</p>
-						</div>
-					</div>
-					</br>
-					<div class="flex-item box">
-						<div class="image fit">
-							<img src="images/look2.jpg" alt="" />
-						</div>
-						<div class="content">
-							<h3>Ana Santos</h3>
-							<p>Vestido tamanho P - Lojinha: Social Premium</p>
-						</div>
-					</div>
-					</br>
-					<div class="flex-item box">
-						<div class="image fit">
-							<img src="images/look3.jpg" alt="" />
-						</div>
-						<div class="content">
-							<h3>Elisa Ferreira</h3>
-							<p>Vestido tamanho P - Lojinha: Dress</p>
-						</div>
-					</div>
-				</div>
-			</section>
+	<?php
+		require_once("config.php");
+		$config = new Config();
+		$conexao = $config->conectaBanco();
 
-				
-			</section>
-			<section id="three" class="wrapper">
-				<div class="inner flex flex-3">
-					<div class="flex-item box">
-						<div class="image fit">
-							<img src="images/look4.jpg" alt="" />
-						</div>
-						<div class="content">
-							<h3>Luana Souza</h3>
-							<p>Short tamanho M - Lojinha: Act </p>
-						</div>
-					</div>
-					</br>
-					<div class="flex-item box">
-						<div class="image fit">
-							<img src="images/look5.jpg" alt="" />
-						</div>
-						<div class="content">
-							<h3>Carla Barros</h3>
-							<p>Vestido tamanho G - Lojinha: Fofurices</p>
-						</div>
-					</div>
-					</br>
-					<div class="flex-item box">
-						<div class="image fit">
-							<img src="images/look6.jpg" alt="" />
-						</div>
-						<div class="content">
-							<h3>Ana Paula</h3>
-							<p>Blazer tamanho P - Lojinha: Socialize</p>
-						</div>
-					</div>
-				</div>
-			</section>
+		$query = "select titulo, descri from postagem";
+
+		$result = mysqli_query($conexao, $query) or die('Invalid query: ' . $conexao->error);
+
+		$num = 0;
+		if ($result->num_rows > 0) {
+    	// output data of each row
+	    while($row = $result->fetch_assoc()) {
+				$num = $num + 1;
+				echo "<div class = \"quadro".$num."\">";
+				echo "		<div class = \"textoconf\">";
+				echo "			<h1 class = \"titulosinopse\">".$row["titulo"]."</h1>";
+				echo "			<p class = \"sinopse\">".$row["descri"]."";
+				echo "		</div>";
+				echo "		<div class = \"posicon\">";
+				echo "			<a class = \"icon\" href=\"editpost.php\" ><img src = \"../img/add.png\" title=\"edit\" border=\"none\" /></a>";
+				echo "		</div>";
+				echo "</div>";
+	    }
+		}
+		$conexao->close();
+		?>
 
 				
 			</section>

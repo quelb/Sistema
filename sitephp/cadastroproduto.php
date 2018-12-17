@@ -12,19 +12,19 @@
 		echo 'BD não selecionado';
 	}
 	//Criem strings e coloquem o mesmo nome do BD
-	$cod_loja = $_POST['cod_loja'];
-	$cod_usuario = $_POST['cod_usuario'];
-	$descricao = $_POST['descricao'];
-	$emailloja = $_POST['emailloja'];
-	$nomeloja = $POST['nomeloja'];
-    $nomeusuario = $_POST['nomeusuario'];
-    $tipodoproduto = $_POST['tipodoproduto'];
+	
+	$nome = $_POST['nome'];
+	$tamanho = $_POST['tamanho'];
+	$condicoesdeuso = $_POST['condicoesdeuso'];
+    $descricao = $_POST['descricao'];
+	$imagemproduto= $_POST['imagemproduto'];
+	
 
 
 
 
 	//coloquem o nome da tabela que quer cadastrar depois de usuario e depois os nomes das strings e depois de VALUES coloquem as strings criadas
-	$sql = "INSERT INTO usuario (cod_loja, cod_usuario, descricao, emailloja, nomeloja, nomeusuario, tipodoproduto) VALUES ('$cod_loja', '$cod_usuario', '$descricao', '$emailloja', '$nomeloja', '$nomeusuario', '$tipodoproduto')";
+	$sql = "INSERT INTO produto (nome, tamanho, condicoesdeuso, descricao, imagemproduto) VALUES ('$nome', '$tamanho', '$condicoesdeuso', '$descricao', '$imagemproduto')"; 
 	
 	if(!mysqli_query($con,$sql))
 	{
@@ -33,7 +33,7 @@
 	else 
 	{
 		echo 'Cadastrado com sucesso'; 
-		header("Location: criarloja.php");
+		header("Location: loja.php");
 	}
 	
 ?>

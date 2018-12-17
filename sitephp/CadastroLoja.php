@@ -15,6 +15,7 @@
 	$pessoa = $_POST['pessoa'];
 	$email = $_POST['email'];
 	$produtos = $_POST['produtos'];
+	$descricao = $_POST['descricao'];
 	
 	$sql = "INSERT INTO loja (nome, pessoa, email, produtos) VALUES ('$nome', '$pessoa', '$email', '$produtos')";
 	

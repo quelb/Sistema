@@ -8,7 +8,7 @@ if(isset($_POST['update']))
    $hostname = "localhost";
    $username = "root";
    $password = "root";
-   $databaseName = "inf";
+   $databaseName = "INFINITE";
    
    $connect = mysqli_connect($hostname, $username, $password, $databaseName);
    
@@ -26,7 +26,6 @@ if(isset($_POST['update']))
    if($result)
    {
        echo 'Data Updated';
-       header("Location: login.php");
    }else{
        echo 'Data Not Updated';
    }

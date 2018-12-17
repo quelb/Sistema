@@ -1,3 +1,4 @@
+
  <!DOCTYPE html>
   <html>
     <head>
@@ -14,7 +15,7 @@
       <div id="cadastro">
       <section id="three" class="wrapper">
         <div class="inner flex flex-3">
-   <form action="CadastroLoja.php" method="post">
+   <form action="Lojacad.php" method="post">
     <h1>Faça a sua lojinha ♥ </h1>
 
     <h3>Informações da loja </h3>
@@ -28,7 +29,7 @@
       <label for="num">Nome da loja:</label>
      </td>
      <td align="left">
-      <input type="text" name="nome">
+      <input type="text" name="nomeloja">
      </td>
     </tr>
     <tr>
@@ -36,7 +37,7 @@
       <label for="validade">Seu nome: </label>
      </td>
      <td align="left">
-      <input type="text" name="pessoa" >
+      <input type="text" name="username" >
      </td>
     </tr>
     <tr>
@@ -44,7 +45,7 @@
       <label for="cod">E-mail loja:</label>
      </td>
      <td align="left">
-     <input type="text" name="email">
+     <input type="text" name="emailloja">
 
      </td>
     </tr>
@@ -53,7 +54,15 @@
       <label for="nameone">Produtos vendidos: </label>
      </td>
      <td align="left">
-      <input type="text" name="produtos" value="roupas/premium/acessórios">
+      <input type="text" name="tipodoproduto" value="roupas/premium/acessórios">
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <label for="validade">Descrição: </label>
+     </td>
+     <td align="left">
+      <input type="text" name="descricao" >
      </td>
     </tr>
    </table>

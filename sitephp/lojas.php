@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <!--
 	Intensify by TEMPLATED
@@ -44,42 +45,32 @@
 						
 						<div class="row 200%">
 							<div class="12u">
-					
-					<section id="three" class="wrapper">
-				<div class="inner flex flex-3">
-					<div class="flex-item box">
+				<?php
+				require_once("config.php");
+				$config = new Config();
+				$conexao = $config->conectaBanco();
 
-						<div class="image fit">
-	
-							<img src="images/avatarloja.jpg"/>
-						</div>
-						<div class="content">
-							<h3>Company Shop</h3>
-							<p>Roupas - Acessórios - Premium</p>
-						</div>
-					</div>
-					</br>
-					<div class="flex-item box">
-						<div class="image fit">
-							<img src="images/loja2.jpg" alt="" />
-						</div>
-						<div class="content">
-							<h3>Ammira</h3>
-							<p>Premium - Acessórios</p>
-						</div>
-					</div>
-					</br>
-					<div class="flex-item box">
-						<div class="image fit">
-							<img src="images/loja3.jpg" alt="" />
-						</div>
-						<div class="content">
-							<h3>Scarf</h3>
-							<p>Acessórios</p>
-						</div>
-					</div>
-				</div>
-			</section>
+				$query = "select nomeloja from loja";
+
+				$result = mysqli_query($conexao, $query) or die('Invalid query: ' . $conexao->error);
+
+				$num = 0;
+				if ($result->num_rows > 0) {
+		    	// output data of each row
+			    while($row = $result->fetch_assoc()) {
+						$num = $num + 1;
+
+			echo "				<h3>".$row["nomeloja"]."</h3> ";
+
+
+			 }
+		}
+		$conexao->close();
+		?>
+
+
+
+
 
 				
 			</section>
